@@ -1,6 +1,6 @@
 
-add_executable(helloworld_cxx helloworld.cpp)
+add_cheri_test_program(cxx_helloworld helloworld.cpp)
+add_cheri_test_program(cxx_helloworld_iostream helloworld_iostream.cpp)
 
-add_executable(return_zero_cxx return_zero.cpp)
-
-add_executable(return_one_cxx return_one.cpp)
+add_cheri_test_program(cxx_return_zero return_zero.cpp)
+add_cheri_test_program(cxx_return_one return_one.cpp)
